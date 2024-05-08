@@ -13,4 +13,4 @@ Site que visa complementar as aulas dadas pelo grupo, para realizar a matéria P
 - Eduardo Pasquali
 - Jean Cunha
 - Pedro
-- Ruan
+- Ruan Klen
