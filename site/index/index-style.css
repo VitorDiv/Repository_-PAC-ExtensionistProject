@@ -56,8 +56,7 @@ ul#menu-items {
 .menu-item a {
     font-size: 12pt;
     text-decoration: none;
-    transition: font-weight 250ms;
-    transition: padding-left 250ms;
+    transition: font-weight 250ms, padding-left 250ms;
 }
 
 .menu-item a:hover {
