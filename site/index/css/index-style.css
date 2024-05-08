@@ -26,23 +26,18 @@ body {
 }
 
 .menu-lateral h1 {
-    font-size: 30pt;
-    margin-left: 10%;
-    margin-top: 10%;
+    font-size: min(2.5080rem, 2vw);
+    margin-left: 2vw;
+    margin-top: 6.989247311828vh;
     margin-right: auto;
-}
-
-.menu-lateral nav {
-    height: 61.290322580645%;
 }
 
 ul#menu-items {
     display: flex;
     flex-direction: column;
-    gap: 3.5087719298246%;
-    height: 100%;
-    justify-content: center;
-    margin-left: 15%;
+    gap: 2.5vh;
+    margin-left: 3vw;
+    padding: 6.4516129032258vh 0 6.4516129032258vh 0;
 }
 
 .menu-item {
@@ -54,14 +49,14 @@ ul#menu-items {
 }
 
 .menu-item a {
-    font-size: 12pt;
+    font-size: min(1.0032rem, 0.85vw);
     text-decoration: none;
     transition: font-weight 250ms, padding-left 250ms;
 }
 
 .menu-item a:hover {
     font-weight: 700;
-    padding-left: 10px;
+    padding-left: 0.52083333333333vw;
 }
 
 .menu-lateral hr {
@@ -133,6 +128,10 @@ ul#menu-items {
     justify-self: start;
 }
 
+.slide-title h2{
+    font-size: 2.0064rem;
+}
+
 .slide-button {
     border-radius: 2vh;
     border: none;
@@ -166,7 +165,7 @@ ul#menu-items {
 .prev, .next {
     cursor: pointer;
     align-self: center;
-    font-size: 40pt;
+    font-size: 3.3440rem;
     text-decoration: none;
     user-select: none;
 }
