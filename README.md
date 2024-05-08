@@ -9,7 +9,7 @@ Site que visa complementar as aulas dadas pelo grupo, para realizar a matéria P
 ## Membros do Grupo:
 - Pedro Schuch
 - Vitor Mayer
-- Gustavo 
+- Gustavo Voltolini
 - Eduardo Pasquali
 - Jean Cunha
 - Pedro
