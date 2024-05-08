@@ -158,11 +158,17 @@ ul#menu-items {
 }
 
 .prev, .next {
+    cursor: pointer;
     align-self: center;
     font-size: 40pt;
     text-decoration: none;
+    user-select: none;
 }
 
 .active {
-    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #9E2C34;
+    height: 9px;
+    width: 9px;
 }
