@@ -77,3 +77,92 @@ ul#menu-items {
     width: 81.5vw;
     overflow-y: scroll;
 }
+
+/* Slider */
+
+.slider {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    justify-content: center;
+    padding-bottom: 0.5%;
+    width: 60%;
+}
+
+.prev-button {
+    justify-content: start;
+}
+
+.prev {
+    background: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(43,43,43,0) 100%);
+}
+
+.slider-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+    width: 64.905660377358%;
+}
+
+.slide-wrapper {
+    background-color: red;
+    height: 70%;
+}
+
+.slide-content {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+}
+
+.slide-title {
+    display: flex;
+    justify-content: center;
+    justify-self: start;
+}
+
+.slide-button {
+    border-radius: 100px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    height: 40%;
+    width: 32%;
+}
+
+.dot {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+
+.next-button {
+    justify-content: end;
+}
+
+.next {
+    background: linear-gradient(-90deg, rgba(255,255,255,0.2) 0%, rgba(43,43,43,0) 100%);
+}
+
+.prev-button, .next-button {
+    display: flex;
+    flex-grow: 1;
+}
+
+.prev, .next {
+    align-self: center;
+    font-size: 40pt;
+    text-decoration: none;
+}
+
+.active {
+    display: flex;
+}
