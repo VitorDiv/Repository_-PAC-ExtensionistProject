@@ -78,16 +78,23 @@ ul#menu-items {
     overflow-y: scroll;
 }
 
+.content-introduction {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
 /* Slider */
 
 .slider {
     background-color: #000000;
+    border-radius: 4vh;
     display: flex;
     flex-direction: row;
     height: 25%;
     justify-content: center;
     padding-bottom: 0.5%;
-    width: 60%;
+    width: 50%;
 }
 
 .prev-button {
@@ -108,7 +115,6 @@ ul#menu-items {
 }
 
 .slide-wrapper {
-    background-color: red;
     height: 70%;
 }
 
@@ -128,7 +134,7 @@ ul#menu-items {
 }
 
 .slide-button {
-    border-radius: 100px;
+    border-radius: 2vh;
     border: none;
     color: #000000;
     cursor: pointer;
