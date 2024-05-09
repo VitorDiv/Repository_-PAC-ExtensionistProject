@@ -26,6 +26,9 @@ body {
     padding-top: 6vh;
     padding-bottom: 6vh;
     width: 18.5vw;
+
+    scrollbar-color: #cacaca65 #2C759D;
+    scrollbar-width: thin;
 }
 
 .menu-lateral h1 {
@@ -42,19 +45,8 @@ ul#menu-items {
     padding: 6.4516129032258vh 2vw 6.4516129032258vh 0;
 }
 
-
 .menu-item {
-    cursor: pointer;
     list-style: none;
-}
-
-.menu-item:hover {
-    list-style: disc;
-}
-
-.menu-item:hover span {
-    font-weight: 700;
-    padding-left: 0.52083333333333vw;
 }
 
 .menu-item-title {
@@ -66,6 +58,10 @@ ul#menu-items {
     justify-content: space-between;
     text-align: start;
     width: 100%;
+}
+
+.menu-item-title a {
+    text-decoration: none;
 }
 
 .menu-item-title span {
@@ -97,7 +93,6 @@ ul#menu-items {
 .sub-menu-body.sub-active {
     height: auto;
     opacity: 1;
-    transition: height 250ms, opacity 250ms;
 } 
 
 .sub-menu-items {
@@ -152,6 +147,9 @@ ul#menu-items {
     height: 100%;
     width: 81.5vw;
     overflow-y: auto;
+
+    scrollbar-color: #cacaca #282F33;
+    scrollbar-width: thin;
 }
 
 .content-introduction {
