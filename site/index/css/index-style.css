@@ -95,6 +95,10 @@ body {
     width: 32%;
 }
 
+.dots {
+    user-select: none;
+}
+
 .dot {
     background-color: #FFFFFF;
     border-radius: 50%;
