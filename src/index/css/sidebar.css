@@ -4,14 +4,25 @@
     background-color: #2C759D;
     display: flex;
     flex-direction: column;
-    height: 88vh;
+    height: 80vh;
+    left: 0;
     overflow-y: auto;
     padding-top: 6vh;
     padding-bottom: 6vh;
+    position: absolute;
+    top: 8vh;
+    transform: translateX(-19.5vw);
     width: 18.5vw;
 
     scrollbar-color: #cacaca65 #2C759D;
     scrollbar-width: thin;
+
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+.showing {
+    transform: translateX(0);
 }
 
 .menu-lateral h1 {

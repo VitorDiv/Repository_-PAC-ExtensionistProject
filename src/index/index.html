@@ -5,221 +5,225 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAC Extensionista</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
+    <header>
+        <button class="menu-button"><i class="fa-solid fa-bars"></i></button>
+    </header>
     <section class="menu-lateral">
         <h1>Conteúdos</h1>
-        <nav>
-            <ul id="menu-items">
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Introdução</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Objetivos</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Poggers demais</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = '../logica-geral/logica-geral.html'">Lógica Geral</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Lógica é Poggers</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Sherlock</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Lógica de Programação em C</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Programador C sofre</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">C é poggers</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Bibliotecas Básicas de C</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">STDLIB.H</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">STDIO.H</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Declaração de Variáveis</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">O que é?</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Tipos de variáveis</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Comandos de Entrada e Saída</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Comandos de Calvo</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Comandos de Saída</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li> 
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Estrutura Condicional</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Se?</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Se não?</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Laços de Repetição</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">For</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">While</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Funções</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">function()</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">return 0;</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Conhecendo o Arduino</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Placa desgraçada</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Programação em C++</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Componentes Básicos</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Pilha</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Resistor</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Simuladores de Robótica</span>
-                        <i class="fa-solid fa-chevron-left arrow"></i>
-                    </button>
-                    
-                    <div class="sub-menu-body">
-                        <ul class="sub-menu-items">
-                            <li class="sub-menu-item">
-                                <a href="#">Aquele site lá</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">Text here</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <hr>
+            <nav>
+                <ul id="menu-items">
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Introdução</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Objetivos</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Poggers demais</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = '../logica-geral/logica-geral.html'">Lógica Geral</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Lógica é Poggers</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Sherlock</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Lógica de Programação em C</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Programador C sofre</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">C é poggers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Bibliotecas Básicas de C</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">STDLIB.H</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">STDIO.H</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Declaração de Variáveis</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">O que é?</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Tipos de variáveis</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Comandos de Entrada e Saída</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Comandos de Calvo</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Comandos de Saída</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Estrutura Condicional</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Se?</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Se não?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Laços de Repetição</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">For</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">While</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Funções</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">function()</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">return 0;</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Conhecendo o Arduino</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Placa desgraçada</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Programação em C++</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Componentes Básicos</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Pilha</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Resistor</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-item-title">
+                            <span onclick="window.location.href = ''">Simuladores de Robótica</span>
+                            <i class="fa-solid fa-chevron-left arrow"></i>
+                        </button>
+                        
+                        <div class="sub-menu-body">
+                            <ul class="sub-menu-items">
+                                <li class="sub-menu-item">
+                                    <a href="#">Aquele site lá</a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="#">Text here</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
     </section>
     <section class="content">
         <div class="content-introduction">
@@ -270,6 +274,7 @@
         </div>
     </section>
     <script src="../js/slideshow/slideshow.js"></script>
-    <script src="../js/dropdown-menu/dropdown-menu.js"></script>
+    <script src="../js/menu/dropdown-menu.js"></script>
+    <script src="../js/menu/show-menu.js"></script>
 </body>
 </html>
