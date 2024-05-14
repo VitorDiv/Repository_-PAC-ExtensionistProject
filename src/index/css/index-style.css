@@ -62,14 +62,14 @@ body {
 }
 
 .slide-wrapper {
-    height: 70%;
+    height: 19vh;
 }
 
 .slide-content {
     align-items: center;
     display: none;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.2vh;
     height: 100%;
     justify-content: center;
 }
@@ -81,15 +81,20 @@ body {
 }
 
 .slide-title h2{
-    font-size: 2.0064rem;
+    font-size: min(2.0064rem, 1.7vw);
+}
+
+.slide-description {
+    font-size: min(1.0868rem, 1vw);
+    height: 7vh;
 }
 
 .slide-button {
-    border-radius: 2vh;
+    border-radius: 50vh;
     border: none;
     color: #000000;
     cursor: pointer;
-    height: 40%;
+    height: 4vh;
     width: 32%;
 }
 
