@@ -38,7 +38,7 @@ body {
     border-radius: 4vh;
     display: flex;
     flex-direction: row;
-    height: 25vh;
+    height: 30vh;
     justify-content: center;
     padding-bottom: 0.5%;
     width: 40vw;
@@ -62,7 +62,7 @@ body {
 }
 
 .slide-wrapper {
-    height: 19vh;
+    height: 25vh;
 }
 
 .slide-content {
@@ -86,7 +86,7 @@ body {
 
 .slide-description {
     font-size: min(1.0868rem, 1vw);
-    height: 7vh;
+    height: 45%;
 }
 
 .slide-button {
