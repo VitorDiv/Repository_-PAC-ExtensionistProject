@@ -12,5 +12,5 @@ Site que visa complementar as aulas dadas pelo grupo, para realizar a matéria P
 - Gustavo Voltolini
 - Eduardo Pasquali
 - Jean Cunha
-- Pedro
+- Pedro Riva
 - Ruan Klen
