@@ -54,6 +54,10 @@ ul#menu-items {
     width: 100%;
 }
 
+.menu-item-title i {
+    font-size: min(1.3376rem, 1.3vw);
+}
+
 .menu-item-title a {
     text-decoration: none;
 }
@@ -132,4 +136,46 @@ ul#menu-items {
 .menu-lateral hr {
     align-self: center;
     width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-lateral {
+        width: 80vw;
+        transform: translateX(-81.5vw);
+    }
+
+    .showing {
+        transform: translateX(0);
+    }
+
+    .menu-lateral h1 {
+        font-size: 1.6720rem;
+        margin-left: 6vw;
+    }
+
+    ul#menu-items {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vh;
+        margin-left: 10vw;
+        padding-bottom: 5vh;
+        padding-right: 10vw;
+        padding-top: 5vh;
+    }
+
+    .menu-item-title i {
+        font-size: 1.1704rem;
+    }
+
+    .menu-item-title span {
+        font-size: 1.0032rem;
+    }
+
+    .sub-menu-items {
+        padding-left: 4vw;
+    }
+
+    .sub-menu-item a {
+        font-size: 0.8360rem;
+    }
 }
