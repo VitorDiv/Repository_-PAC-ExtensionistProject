@@ -11,13 +11,14 @@
 body {
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 /* Conteúdo */
 
 .content {
     background-color: #282F33;
-    height: 92vh;
+    height: 89.75vh;
     width: 100vw;
     overflow-y: auto;
 
@@ -27,7 +28,7 @@ body {
 
 .content-introduction {
     display: flex;
-    height: 92vh;
+    height: 100%;
     justify-content: center;
 }
 
@@ -137,4 +138,10 @@ body {
     background-color: #9E2C34;
     height: 9px;
     width: 9px;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        height: 91.8vh;
+    }
 }

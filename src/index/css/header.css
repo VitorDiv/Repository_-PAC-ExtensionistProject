@@ -1,20 +1,54 @@
 header {
+    border-bottom: 0.3vh solid #68FF60;
     align-items: center;
-    background-color: #2C759D;
+    background-color: #022E17;
     display: flex;
-    height: 8vh;
-    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 96vw;
+}
+
+.logo {
+    height: 5vh;
 }
 
 .menu-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    height: 4vh;
-    margin-left: 1vw;
-    width: 4vh;
+    height: 5vh;
+    width: 5vh;
 }
 
 .menu-button i {
-    font-size: min(1.5048rem, 1.3376rem);
+    color: #68FF60;
+    font-size: min(2.3408rem, 2vw);
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 8vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        width: 92vw;
+    }
+
+    .logo {
+        height: 3vh;
+    }
+
+    .menu-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        height: 4vh;
+        width: 4vh;
+    }
+    
+    .menu-button i {
+        font-size: 1.6720rem;
+    }
+    
 }
