@@ -5,12 +5,12 @@ var sidebar = `
     <ul id="menu-items">
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = '../index/index.html'">Início</span>
+                <span onclick="window.location.href = './index.html'">Início</span>
             </button>
         </li>
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = '../logica-geral/logica-geral.html'">Lógica de Programação</span>
+                <span onclick="window.location.href = './logica-geral.html'">Lógica de Programação</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             
