@@ -5,7 +5,7 @@ var sidebar = `
             <ul id="menu-items">
                 <li class="menu-item">
                     <button class="menu-item-title">
-                        <span onclick="window.location.href = ''">Início</span>
+                        <span onclick="window.location.href = '../index/index.html'">Início</span>
                     </button>
                 </li>
                 <li class="menu-item">
@@ -24,9 +24,6 @@ var sidebar = `
                             </li>
                             <li class="sub-menu-item">
                                 <a href="#">A importância da lógica</a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="#">História da lógica</a>
                             </li>
                             <li class="sub-menu-item">
                                 <a href="#">Exercícios</a>

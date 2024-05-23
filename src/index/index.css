@@ -3,6 +3,16 @@
     justify-content: center;
 }
 
+.logo-image {
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+
+.logo-image img{
+    width: 30vw;
+}
+
 .about {
     padding-left: 12vw;
     padding-right: 12vw;
