@@ -140,3 +140,68 @@
 #roadmap-title {
     margin-bottom: 2vh;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .logo-image img {
+        width: 80vw;
+    }
+
+    .about {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+    .about-description {
+        line-height: 20px;
+        font-size: 1.0032rem;
+    }
+
+    .extremities-roadmap {
+        align-self: flex-start;
+        box-shadow: 5px 5px 15px 3px #000;
+        width: 40%;
+        z-index: 1;
+    }
+
+    .extremities-roadmap h3 {
+        font-size: 1.3376rem;
+    }
+
+    .dot {
+        display: block;
+        height: 2vw;
+        width: 2vw;
+        z-index: 1;
+    }
+
+    .checkpoint {
+        align-self: flex-end;
+        max-width: 70vw;
+    }
+
+    .checkpoint:nth-child(odd) .dot {
+        position: absolute;
+        left: calc(11.3%);
+    }
+    
+    .checkpoint:nth-child(even) .dot {
+        position: absolute;
+        left: calc(11.3%);
+    }
+
+    .checkpoint::before {
+        content: '';
+        left: calc(12%);
+    }
+
+    .checkpoint h3 {
+        font-size: 1.3376rem;
+        margin-bottom: 1.5vh;
+        transition: color 250ms ease-out;
+    }
+
+    .checkpoint p {
+        font-size: 0.8360rem;
+    }
+}
