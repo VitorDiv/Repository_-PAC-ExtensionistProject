@@ -5,258 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAC Extensionista</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/index-style.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/content-style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <header>
-        <img src="../img/logo-500x86.png" alt="Logo Pac.Ext" class="logo">
-        <button class="menu-button"><i class="fa-solid fa-bars"></i></button>
+    <header class="header">
     </header>
-    <section class="menu-lateral">
-        <h1>Conteúdos</h1>
-            <nav>
-                <ul id="menu-items">
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Introdução</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Objetivos</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Poggers demais</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = '../logica-geral/logica-geral.html'">Lógica Geral</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Lógica é Poggers</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Sherlock</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Lógica de Programação em C</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Programador C sofre</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">C é poggers</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Bibliotecas Básicas de C</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">STDLIB.H</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">STDIO.H</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Declaração de Variáveis</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">O que é?</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Tipos de variáveis</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Comandos de Entrada e Saída</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Comandos de Calvo</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Comandos de Saída</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li> 
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Estrutura Condicional</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Se?</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Se não?</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Laços de Repetição</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">For</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">While</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Conhecendo o Arduino</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Placa desgraçada</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Programação em C++</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Componentes Básicos</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Pilha</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Resistor</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <button class="menu-item-title">
-                            <span onclick="window.location.href = ''">Simuladores de Robótica</span>
-                            <i class="fa-solid fa-chevron-left arrow"></i>
-                        </button>
-                        
-                        <div class="sub-menu-body">
-                            <ul class="sub-menu-items">
-                                <li class="sub-menu-item">
-                                    <a href="#">Aquele site lá</a>
-                                </li>
-                                <li class="sub-menu-item">
-                                    <a href="#">Text here</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <hr>
-    </section>
+    <section class="menu-lateral-container"></section>
     <section class="content">
-        <div class="content-introduction">
-            <div class="slider">
-                <div class="prev-button">
-                    <a onclick="showSlide(-1)" class="prev">&lt;</a>
+        <section class="introduction">
+            <div class="logo-image">
+                <img src="../img/logo-700.png" alt="logo">
+            </div>
+            <h2 class="subtitle" id="about-subtitle">Bem-vindo ao PAC.EXT!</h2>
+            <div class="about">
+                <p class="about-description">
+                    Somos um site que busca auxiliar ao máximo o usuário a compreender melhor sobre programação, se esse é seu objetivo está no lugar certo.
+                    Acreditamos na importância de todos terem o conhecimento suficiente para começar no mundo da programação e nos esforçamos para impor os melhores e mais atualizados conteúdos, para que o seu objetivo seja atingido.
+                    Estamos comprometidos em oferecer o melhor conteúdo da Internet.
+                </p>
+            </div>
+        </section>
+        <section class="sect-roadmap">
+            <h2 class="subtitle" id="roadmap-title">Roadmap</h2>
+            <hr>
+            <div class="roadmap">
+                <div class="extremities-roadmap start">
+                    <h3>Início</h3>
                 </div>
-                <div class="slider-content">
-                    <div class="slide-wrapper">
-                        <div class="slide-content">
-                            <div class="slide-title"><h2>Titulo 1</h2></div>
-                            <p class="slide-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, voluptates ad illum distinctio enim, inventore quam suscipit rem non vitae mollitia adipisci?</p>
-                            <button class="slide-button">Veja o Conteúdo</button>
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-title"><h2>Titulo 2</h2></div>
-                            <p class="slide-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius minima quam numquam eum? Illo excepturi nisi, alias voluptatem, officia modi cupiditate</p>
-                            <button class="slide-button">Veja o Conteúdo</button>
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-title"><h2>Titulo 3</h2></div>
-                            <p class="slide-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corrupti minus dolor aspernatur dignissimos? Blanditiis consequatur, maxime reiciendis</p>
-                            <button class="slide-button">Veja o Conteúdo</button>
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-title"><h2>Titulo 4</h2></div>
-                            <p class="slide-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloremque illo rem recusandae repudiandae animi temporibus. Quasi odio, rerum debitis</p>
-                            <button class="slide-button">Veja o Conteúdo</button>
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-title"><h2>Titulo 5</h2></div>
-                            <p class="slide-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident odit vero accusantium eius asperiores cupiditate ratione, quae officia dicta aspernatur</p>
-                            <button class="slide-button">Veja o Conteúdo</button>
-                        </div>
-                    </div>
-                    <div class="dots">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Lógica Geral</h3>
+                        <p class="checkpoint-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique sequi ad, assumenda reprehenderit dolore! Adipisci beatae praesentium reiciendis recusandae quam laudantium, aliquam error, labore veritatis cupiditate autem! Quae, libero.
+                        </p>
                     </div>
                 </div>
-                <div class="next-button">
-                    <a onclick="showSlide(1)" class="next">&gt;</a>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Linguagem de Programação</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ipsam debitis sapiente ea aut quam? Quis fuga earum, voluptate nobis aut dolor praesentium magni nihil reprehenderit quos, distinctio eius nam!
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Bibliotecas Básicas de C</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet deleniti alias asperiores? Eligendi nostrum dolorum reiciendis autem. Quae perferendis praesentium atque libero alias nostrum sint asperiores nemo. Soluta, ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Declaração de Variáveis</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim doloribus nam, fuga accusamus dolor voluptatibus ratione laudantium obcaecati voluptate, sit maxime laboriosam perferendis nobis eveniet nisi architecto minima? Quod, vitae.
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Comandos de Entrada e Saída</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet deleniti alias asperiores? Eligendi nostrum dolorum reiciendis autem. Quae perferendis praesentium atque libero alias nostrum sint asperiores nemo. Soluta, ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Estrutura Condicional</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, commodi voluptatibus? Deserunt ad debitis excepturi quas animi, distinctio officia reiciendis laboriosam, dolore reprehenderit voluptatum cupiditate. Fugiat quo eligendi obcaecati consequatur!
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Laços de Repetição</h3>
+                        <p class="checkpoint-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ea, natus, cum eaque ducimus ab ratione, aperiam sunt aspernatur nesciunt iure. Itaque odio inventore esse alias sed atque! Ut, minus?
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Conhecendo o Arduino</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet deleniti alias asperiores? Eligendi nostrum dolorum reiciendis autem. Quae perferendis praesentium atque libero alias nostrum sint asperiores nemo. Soluta, ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Componentes Básicos</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor debitis vero ducimus fugit modi ex saepe explicabo magnam repellat dignissimos numquam fugiat vitae nobis quaerat, laudantium nostrum obcaecati, sunt voluptatem!
+                        </p>
+                    </div>
+                </div>
+                <div class="checkpoint">
+                    <span class="dot"></span>
+                    <div>
+                        <h3 class="checkpoint-title">Simuladores de Robótica</h3>
+                        <p class="checkpoint-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet deleniti alias asperiores? Eligendi nostrum dolorum reiciendis autem. Quae perferendis praesentium atque libero alias nostrum sint asperiores nemo. Soluta, ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="extremities-roadmap end">
+                    <h3>Final</h3>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
+    <script src="../js/header/header.js"></script>
+    <script src="../js/menu/sidebar.js"></script>
     <script src="../js/slideshow/slideshow.js"></script>
     <script src="../js/menu/dropdown-menu.js"></script>
     <script src="../js/menu/show-menu.js"></script>

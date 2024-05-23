@@ -1,20 +1,26 @@
 /* Menu de navegação */
 
+.menu-lateral-container {
+    height: 89.7vh;
+    right: 0;
+    overflow-x: hidden;
+    position: absolute;
+    top: 10.3vh;
+    width: 18.5vw;
+}
+
 .menu-lateral {
-    background-color: #2C759D;
+    background-color: #022E17;
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    left: 0;
+    height: calc(100% - 12vh);
     overflow-y: auto;
     padding-top: 6vh;
     padding-bottom: 6vh;
-    position: absolute;
-    top: 8vh;
-    transform: translateX(-19.5vw);
-    width: 18.5vw;
+    transform: translateX(19.5vw);
+    width: 100%;
 
-    scrollbar-color: #cacaca65 #2C759D;
+    scrollbar-color: #cacaca65 #022E17;
     scrollbar-width: thin;
 
     transition-property: transform;
@@ -112,12 +118,9 @@ ul#menu-items {
 }
 
 .menu-item:has(.sub-active) span {
+    color: #68FF60;
     font-weight: 700;
     padding-left: 0;
-}
-
-.menu-item:has(.sub-active){
-    list-style-type: none;
 }
 
 .sub-menu-item a {
@@ -128,6 +131,7 @@ ul#menu-items {
 }
 
 .sub-menu-item a:hover {
+    color: #68FF60;
     font-weight: 700;
 }
 
@@ -138,10 +142,17 @@ ul#menu-items {
     width: 80%;
 }
 
+
+
 @media only screen and (max-width: 768px) {
-    .menu-lateral {
+    .menu-lateral-container {
+        height: calc(100vh - 8.3vh);
+        top: 8.3vh;
         width: 80vw;
-        transform: translateX(-81.5vw);
+    }
+    
+    .menu-lateral {
+        transform: translateX(81.5vw);
     }
 
     .showing {
