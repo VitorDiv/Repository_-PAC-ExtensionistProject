@@ -1,13 +1,5 @@
 /* Menu de navegação */
 
-.menu-lateral-container {
-    height: 89.7vh;
-    left: 0;
-    overflow-x: hidden;
-    position: absolute;
-    top: 10.3vh;
-}
-
 .menu-lateral {
     background-color: #022E17;
     display: flex;
@@ -146,14 +138,12 @@ ul#menu-items {
 
 
 @media only screen and (max-width: 768px) {
-    .menu-lateral-container {
-        height: calc(100vh - 8.3vh);
+    .menu-lateral {
+        height: calc(100vh - 20.3vh);
+        transform: translateX(-81.5vw);
         top: 8.3vh;
         width: 80vw;
-    }
-    
-    .menu-lateral {
-        transform: translateX(81.5vw);
+        z-index: 2;
     }
 
     .showing {
