@@ -17,16 +17,16 @@ var sidebar = `
             <div class="sub-menu-body">
                 <ul class="sub-menu-items">
                     <li class="sub-menu-item">
-                        <a href="#">O que é lógica?</a>
+                        <a href="./logica-geral.html#o-que-e-logica">O que é lógica?</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">História da lógica</a>
+                        <a href="./logica-geral.html#historia-da-logica">História da lógica</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">A importância da lógica</a>
+                        <a href="./logica-geral.html#a-importancia-da-logica">A importância da lógica</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">Exercícios</a>
+                        <a href="./logica-geral.html#exercicios">Exercícios</a>
                     </li>
                 </ul>
             </div>
