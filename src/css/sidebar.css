@@ -2,23 +2,24 @@
 
 .menu-lateral-container {
     height: 89.7vh;
-    right: 0;
+    left: 0;
     overflow-x: hidden;
     position: absolute;
     top: 10.3vh;
-    width: 18.5vw;
 }
 
 .menu-lateral {
     background-color: #022E17;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 12vh);
+    height: calc(100vh - 22.3vh);
     overflow-y: auto;
     padding-top: 6vh;
     padding-bottom: 6vh;
-    transform: translateX(19.5vw);
-    width: 100%;
+    position: absolute;
+    top: 10.3vh;
+    transform: translateX(-19.5vw);
+    width: 18.5vw;;
 
     scrollbar-color: #cacaca65 #022E17;
     scrollbar-width: thin;
