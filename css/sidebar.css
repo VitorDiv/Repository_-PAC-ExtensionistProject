@@ -11,7 +11,8 @@
     position: absolute;
     top: 10.3vh;
     transform: translateX(-19.5vw);
-    width: 18.5vw;;
+    width: 18.5vw;
+    z-index: 5;
 
     scrollbar-color: #cacaca65 #022E17;
     scrollbar-width: thin;
@@ -35,7 +36,7 @@ ul#menu-items {
     flex-direction: column;
     gap: 2.5vh;
     margin-left: 3vw;
-    padding: 6.4516129032258vh 2vw 6.4516129032258vh 0;
+    padding: 3vh 2vw 6vh 0;
 }
 
 .menu-item {
@@ -135,7 +136,12 @@ ul#menu-items {
     width: 80%;
 }
 
+/* Information */
 
+.information {
+    margin-left: 3vw;
+    padding: 3vh 2vw 6vh 0;
+}
 
 @media only screen and (max-width: 768px) {
     .menu-lateral {

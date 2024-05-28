@@ -214,6 +214,9 @@ var sidebar = `
     </ul>
 </nav>
 <hr>
+<div class="information">
+    <a href="#">Sobre a equipe</a> 
+</div>
 `
 
 var menuLateralContainer = document.querySelector(".menu-lateral");
