@@ -49,8 +49,9 @@ body {
 }
 
 h3 {
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    text-align: center;
 }
 
 ol {
