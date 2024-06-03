@@ -92,7 +92,7 @@ var sidebar = `
         </li>
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = ''">Comandos de Entrada e Saída</span>
+                <span onclick="window.location.href = './comandos-entrada-saida.html'">Comandos de Entrada e Saída</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             
