@@ -41,11 +41,25 @@ body {
     margin-top: 10vh;
 }
 
+.subtitle-2 {
+    font-size: min(1.6720rem, 1.5vw);
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    text-align: start;
+}
+
 .description {
     line-height: 25px;
     margin-bottom: 2vh;
     margin-bottom: 2vh;
     text-indent: 2vw;
+}
+
+.description-2 {
+    line-height: 25px;
+    margin-bottom: 2vh;
+    margin-bottom: 2vh;
+    text-indent: 0;
 }
 
 h3 {
@@ -56,11 +70,28 @@ h3 {
 
 ol {
     margin-top: 1.5vh;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 
 ol li {
     line-height: 25px;
+}
+
+table {
+    border: 2px solid #68FF60;
+    border-collapse: collapse;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    max-width: 35vw;
+}
+
+th, td {
+    border: 2px solid #68FF60;
+    padding: 6px;
+}
+
+th {
+    background-color: #022E17;
 }
 
 .video {
@@ -74,6 +105,13 @@ ol li {
 
 .youtube-video {
     border: 6px solid #68FF60;
+}
+
+.ilustration {
+    border: 2px solid #68FF60;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
 }
 
 .footer {
@@ -91,6 +129,10 @@ ol li {
     right: 0px;
     text-align: center;
     position: absolute;
+}
+
+#func-main {
+    width: 17vw;
 }
 
 @media only screen and (max-width: 768px) {

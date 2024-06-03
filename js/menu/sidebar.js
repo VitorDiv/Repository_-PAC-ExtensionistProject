@@ -1,5 +1,4 @@
 var sidebar = `
-
 <h1>Conteúdos</h1>
 <nav>
     <ul id="menu-items">
@@ -33,20 +32,23 @@ var sidebar = `
         </li>
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = ''">Linguagem de Programação em C</span>
+                <span onclick="window.location.href = './linguagem-de-programacao-c.html'">Linguagem de Programação em C</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             
             <div class="sub-menu-body">
                 <ul class="sub-menu-items">
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 1</a>
+                        <a href="./linguagem-de-programacao-c.html#o-que-e-linguagem-c">O que é linguagem C?</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 2</a>
+                        <a href="./linguagem-de-programacao-c.html#c-ansi">C ANSI</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 3</a>
+                        <a href="./linguagem-de-programacao-c.html#comandos-basicos-em-c">Comandos básicos em C</a>
+                    </li>
+                    <li class="sub-menu-item">
+                        <a href="./linguagem-de-programacao-c.html#o-que-sao-variaveis">O que são variáveis?</a>
                     </li>
                 </ul>
             </div>

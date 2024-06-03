@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagem de Programação C</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content-style.css">
+    <link rel="stylesheet" href="./css/exercice-form-style.css">
+</head>
+<body>
+    <header class="header"></header>
+    <section class="menu-lateral"></section>
+    <section class="content">
+        <h1 class="title">Linguagem de Programação C</h1>
+        <hr>
+        <h2 class="subtitle" id="o-que-e-linguagem-c">O que é linguagem C?</h2>
+        <p class="description">A linguagem C foi criada por <a href="https://pt.wikipedia.org/wiki/Dennis_Ritchie" class="link">Dennis Ritchie</a> nos laboratórios da Bell Telephone em 1972. C foi criado com um propósito: ser usado no desenvolvimento de uma nova versão do sistema operacional Unix. A primeira versão do Unix utilizava Assembly. Então podemos dizer que desde o principio C foi uma linguagem criada por programadores para programadores.</p>
+        <p class="description">A linguagem C é considerada de propósito geral, ou seja é uma linguagem capaz de ser usada para praticamente qualquer tipo de projeto. É extremamente portável, ou seja um programa escrito em linguagem C pode ser facilmente usado em qualquer plataforma. Utilizando linguagem C podemos criar sistemas operacionais, aplicativos de todos os tipos, drivers e outros controladores de dispositivos, programar microcontroladores, etc.</p>
+        <p class="description">Além de toda essa flexibilidade, C é capaz de gerar programas extremamente rápidos em tempo de execução, possui uma sintaxe simples e poderosa, com instruções de alto nível. A linguagem C influenciou de forma direta muitas linguagens como C++, Java, C# , Objective C, e muitas outras linguagens de programação tem sua sintaxe e estruturas influenciadas por C. C é uma linguagem extremamente popular e existem muitos compiladores C disponíveis para todas as plataformas.</p>
+        
+        <h2 class="subtitle" id="c-ansi">C ANSI</h2>
+        <p class="description">A <strong>ANSI</strong> – <em>American National Standards Institute</em> foi a entidade encarregada de realizar a padronização da linguagem. Após a laboração do padrão este foi denominado de C ANSI. Este padrão foi revisto diversas vezes ao longo do tempo e posteriormente foi também reconhecido pela ISO, dando origem ao que chamamos de padrão ANSI/ISO C.</p>
+        <p class="description">No início C e Unix estavam bem atrelados, pois cada nova implementação de Unix para um tipo de máquina, requeria um novo compilador C específico para essa máquina. Nos anos 80 a linguagem C tornou-se popular também fora do ambiente Unix. Nessa época surgiram novos compiladores comerciais de C e a linguagem passou a ser reconhecida como linguagem de propósito geral. Com o desenvolvimento de diversos compiladores, tornou-se necessário padronizar a linguagem,  a fim de garantir a compatibilidade e a portabilidade da linguagem.</p>
+        <h3 class="subtitle-2" id="o-que-e-c-ansi">O que é C ANSI?</h2>
+        <p class="description">ANSI C , ISO C e Standard C são padrões sucessivos para a linguagem de programação C publicados pelo <em>American National Standards Institute</em> (ANSI) e ISO/IEC JTC 1/SC 22 /WG 14 da <em>International Organization for Standardization</em> (ISO) e pela Comissão Eletrotécnica Internacional (IEC). Historicamente, os nomes referiam-se especificamente à versão original e com melhor suporte do padrão (conhecida como C89 ou C90 ). Os desenvolvedores de software que escrevem em C são incentivados a seguir os padrões, pois isso ajuda na portabilidade entre compiladores. </p>
+        <p class="description">Antes de apresentamos a sintaxe da Linguagem C, Vamos entender o que é um compilador (Programa que traduz a nossa linguagem para linguagem máquina). Que utilizaremos para testar se os programas que digitármos a máquina irá interpreta-los.</p>
+        <h3 class="subtitle-2" id="o-que-sao-compiladores">O que são compiladores?</h3>
+        <p class="description">Compiladores – A maneira de se comunicar com um computador chama-se programa e a única linguagem que o computador entende é a linguagem de máquina. Portanto, todos os programas que se comunicam com a máquina devem estar em linguagem de máquina. Os programas que fazem essa espécie de tradução são chamados compiladores. Um compilador lê a primeira instrução do programa, faz uma consistência de sua sintaxe e, se não houver erro, converte-a para linguagem de máquina; segue para a próxima instrução, repetindo o processo até que a última instrução seja atingida ou a consistência aponte algum erro.</p>
+        <p class="description">Se não houver erros, o compilador cria um programa em disco com o sufixo OBJ, contendo as instruções já traduzidas. Este programa não pode ser executado até que sejam agregadas a ele as funções em linguagem de máquina que foram utilizadas no programa e estão em arquivos de bibliotecas. Este trabalho é feito por um programa chamado linkeditor, que, além de juntar as funções necessárias ao programa OBJ, cria um produto final em disco com o sufixo .EXE, o qual pode ser executado diretamente do sistema operacional. Um compilador não criará um programa em linguagem de máquina antes que esteja absolutamente livre de erros.</p>
+        <h3 class="subtitle-2">Fontes</h3>
+        <ol>
+            <li><a href="https://linguagemc.com.br/o-que-e-linguagem-c/ " class="link">https://linguagemc.com.br/o-que-e-linguagem-c/ </a></li>
+            <li><p class="description-2">Livro: Treinamento em Liguagem C (2º Edição) Autora: Victorine Viviane</p></li>
+        </ol>
+
+        <h2 class="subtitle" id="comandos-basicos-em-c">Comandos básicos em C</h2>
+        <p class="description">Agora que você saber um pouco mais sobre a linguagem de programação C e um pouco sobre o que significa a padronização C ANSI, vamos começar a falar sobre a estrutura básica de um programa C e depois sobre alguns comandos e codigos que pode ser utilizado no desenvolvimento do seu programa.</p>
+        <h3 class="subtitle-2">A Estrutura Básica de um Programa C</h3>
+        <p class="description">Um programa compõe-se de uma única função chamada main(), “main” em inglês significa principal. O nome de uma função pode ser qualquer um, com exceção de main(), reservado para a função que inicia a execução do programa. Em todo programa C deve existir uma única função chamada main(). Ela marca o ponto de partida do programa, que termina quando for encerrada a execução da função main(). Se um programa for constituído de uma única função, esta será main(). Exemplo:</p>
+        <img src="./img/linguagem-programacao-c/func-main.png" alt="Bloco de texto" class="ilustration" id="func-main">
+
+        <h3 class="subtitle-2">Principais Funções na Linguagem C</h2>
+        <table>
+            <tr>
+                <th>Função</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><code>printf()</code></td>
+                <td>Escreve dados formatados na saída padrão (normalmente, a tela).</td>
+            </tr>
+            <tr>
+                <td><code>scanf()</code></td>
+                <td>Lê dados formatados da entrada padrão (normalmente, o teclado). </td>
+            </tr>
+            <tr>
+                <td><code>fprintf()</code></td>
+                <td>Escreve dados formatados em um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>fscanf()</code></td>
+                <td>Lê dados formatados de um arquivo. </td>
+            </tr>
+            <tr>
+                <td><code>sprintf()</code></td>
+                <td>Escreve dados formatados em uma string.</td>
+            </tr>
+            <tr>
+                <td><code>sscanf()</code></td>
+                <td>Lê dados formatados de uma string.</td>
+            </tr>
+            <tr>
+                <td><code>fopen()</code></td>
+                <td>Abre um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>fclose()</code></td>
+                <td>Fecha um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>fgets()</code></td>
+                <td>Lê uma linha de texto de um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>fputc()</code></td>
+                <td>Escreve um caractere em um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>fgetC()</code></td>
+                <td>Lê um caractere em um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>rewind()</code></td>
+                <td>Reposiciona o ponteiro de arquivo para o início de um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>feof()</code></td>
+                <td>Verifica se o fim de um arquivo foi alcançado.</td>
+            </tr>
+            <tr>
+                <td><code>fseek()</code></td>
+                <td>Reposiciona o ponteiro de arquivo para uma posição específica em um arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>ftell()</code></td>
+                <td>Retorna a posição atual do ponteiro de arquivo.</td>
+            </tr>
+            <tr>
+                <td><code>remove()</code></td>
+                <td>Remove um arquivo do sistema de arquivos.</td>
+            </tr>
+            <tr>
+                <td><code>rename()</code></td>
+                <td>Renomeia um arquivo.</td>
+            </tr>
+        </table>
+
+        <h3 class="subtitle-2">Códigos especiais</h3>
+        <table>
+            <tr>
+                <th>Código especial</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><code>+</code></td>
+                <td>Operador de adição.</td>
+            </tr>
+            <tr>
+                <td><code>-</code></td>
+                <td>Operador de subtração.</td>
+            </tr>
+            <tr>
+                <td><code>*</code></td>
+                <td>Operador de multiplicação. Dependendo da utilidade pode ser usado como operador de dereferência (valor apontado por) </td>
+            </tr>
+            <tr>
+                <td><code>/</code></td>
+                <td>Operador de divisão.</td>
+            </tr>
+            <tr>
+                <td><code>%</code></td>
+                <td>Operador de módulo.</td>
+            </tr>
+            <tr>
+                <td><code>=</code></td>
+                <td>Operador de atribuição.</td>
+            </tr>
+            <tr>
+                <td><code>==</code></td>
+                <td>Operador de igualdade.</td>
+            </tr>
+            <tr>
+                <td><code>!=</code></td>
+                <td>Operador de desigualdade.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;</code></td>
+                <td>Operador menor que.</td>
+            </tr>
+            <tr>
+                <td><code>&gt;</code></td>
+                <td>Operador de maior que.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;=</code></td>
+                <td>Operador maior ou igual a.</td>
+            </tr>
+            <tr>
+                <td><code>&gt;=</code></td>
+                <td>Operador maior ou igual a.</td>
+            </tr>
+            <tr>
+                <td><code>&&</code></td>
+                <td>Operador lógico AND.</td>
+            </tr>
+            <tr>
+                <td><code>!</code></td>
+                <td>Operador lógico NOT.</td>
+            </tr>
+            <tr>
+                <td><code>&</code></td>
+                <td>Operador bit a bit AND. Dependendo da utilidade, pode servir como operador de referência (endereço de) </td>
+            </tr>
+            <tr>
+                <td><code>^</code></td>
+                <td>Operador bit a bit XOR</td>
+            </tr>
+            <tr>
+                <td><code>~</code></td>
+                <td>Operador bit a bit NOT</td>
+            </tr>
+            <tr>
+                <td><code>&lt;&lt;</code></td>
+                <td>Deslocamento de bits para a esquerda.</td>
+            </tr>
+            <tr>
+                <td><code>&gt;&gt;</code></td>
+                <td>Deslocamento de bits para a direita.</td>
+            </tr>
+            <tr>
+                <td><code>,</code></td>
+                <td>Operador de vírgula (usado para separar expressões).</td>
+            </tr>
+            <tr>
+                <td><code>?:</code></td>
+                <td>Operador ternário (condicional).</td>
+            </tr>
+            <tr>
+                <td><code>#</code></td>
+                <td>Caractere de pré-processador (para diretivas de pré-processador).</td>
+            </tr>
+            <tr>
+                <td><code>\n</code></td>
+                <td>Caractere de nova linha.</td>
+            </tr>
+            <tr>
+                <td><code>\t</code></td>
+                <td>Caractere de tabulação.</td>
+            </tr>
+            <tr>
+                <td><code>\r</code></td>
+                <td>Caractere de retorno.</td>
+            </tr>
+            <tr>
+                <td><code>\\</code></td>
+                <td>Caractere de barra invertida.</td>
+            </tr>
+            <tr>
+                <td><code>\'</code></td>
+                <td>Caractere de apóstrofo.</td>
+            </tr>
+            <tr>
+                <td><code>\"</code></td>
+                <td>Caractere de aspas duplas.</td>
+            </tr>
+            <tr>
+                <td><code>\0</code></td>
+                <td>Caractere nulo.</td>
+            </tr>
+        </table>
+
+        <h3 class="subtitle-2">Codigo de formatação para função <code>prinf()</code>: </h3>
+        <table>
+            <tr>
+                <th>Código de formatação</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><code>%c</code></td>
+                <td>Caractere simples, ex: A, B, C, E, I, F...</td>
+            </tr>
+            <tr>
+                <td><code><code>%d</code> ou <code>%i</code> </code></td>
+                <td>Inteiro decimal com sinal, ex: (0,1,2,3,-1,-2,-3).</td>
+            </tr>
+            <tr>
+                <td><code>%e</code></td>
+                <td>Notação científica (em minúsculo).</td>
+            </tr>
+            <tr>
+                <td><code>%E</code></td>
+                <td>Notação científica (em maiúsculo).</td>
+            </tr>
+            <tr>
+                <td><code>%f</code></td>
+                <td>Ponto flutuante em decimal, ex: 1.5, 2.5, 3.7, 2.3333333...</td>
+            </tr>
+            <tr>
+                <td><code>%g</code></td>
+                <td>Usa %e ou %f, o que for menor.</td>
+            </tr>
+            <tr>
+                <td><code>%G</code></td>
+                <td>Usa %e ou %f, o que for menor.</td>
+            </tr>
+            <tr>
+                <td><code>%o</code></td>
+                <td>Inteiro octal sem sinal.</td>
+            </tr>
+            <tr>
+                <td><code>%s</code></td>
+                <td>String de caracteres.</td>
+            </tr>
+            <tr>
+                <td><code>%u</code></td>
+                <td>Inteiro decimal sem sinal.</td>
+            </tr>
+            <tr>
+                <td><code>%x</code></td>
+                <td>Inteiro Hexadecimal sem sinal (Letras minúsculas).</td>
+            </tr>
+            <tr>
+                <td><code>%X</code></td>
+                <td>Inteiro Hexadecimal sem sinal (Letras  maiúsculos).</td>
+            </tr>
+            <tr>
+                <td><code>%p</code></td>
+                <td>Ponteiro (endereço).</td>
+            </tr>
+            <tr>
+                <td><code>%n</code></td>
+                <td>Ponteiro inteiro.</td>
+            </tr>
+            <tr>
+                <td><code>%%</code></td>
+                <td>Imprime um caractere %.</td>
+            </tr>
+        </table>
+
+        <h2 class="subtitle" id="o-que-sao-variaveis">O que são variáveis?</h2>
+        <p>Em termos simples, podemos dizer que são espaços de memória reservados para armazenar dados. Cada variável possui um nome único, que permite referenciá-la e acessar seu valor ao longo do programa. Algumas variáveis que você verá nesse curso:</p>
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td><code>char</code></td>
+                <td>Armazena um caractere, por exemplo: '1', 'a', 'A', etc.</td>
+            </tr>
+            <tr>
+                <td><code>int</code></td>
+                <td>Armazena um valor numérico do tipo inteiro, por exemplo: 1, -1, 10, -100, etc.</td>
+            </tr>
+            <tr>
+                <td><code>float</code></td>
+                <td>Armazena um valor numérico de ponto flutuante, por exemplo: 1.55, -5.33, 10.7, etc.</td>
+            </tr>
+            <tr>
+                <td><code>double</code></td>
+                <td>Armazena um valor numérico de ponto fluntuante da mesma maneira que o <code>float</code>, mas o double é mais preciso, pois armazena mais números após o ponto</td>
+            </tr>
+        </table>
+
+        <h3 class="subtitle-2">Estrutura básica da linguagem C</h3>
+        <p class="description">Abaixo segue um código na linguagem C para printar o texto na tela “Hello World”.</p>
+        <img src="./img/linguagem-programacao-c/estrutura-basica.png" alt="Imagem da estrutura básica de um programa em C" class="ilustration">
+
+        <footer class="footer"></footer>
+    </section>
+    <script src="./js/header/header.js"></script>
+    <script src="./js/menu/sidebar.js"></script>
+    <script src="./js/footer/footer.js"></script>
+    <script src="./js/menu/dropdown-menu.js"></script>
+    <script src="./js/menu/show-menu.js"></script>
+    <script src="./js/form/exercices-form.js"></script>
+</body>
+</html>
