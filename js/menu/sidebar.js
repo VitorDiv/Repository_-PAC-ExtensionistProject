@@ -55,7 +55,7 @@ var sidebar = `
         </li>
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = ''">Bibliotecas Básicas de C</span>
+                <span onclick="window.location.href = './bibliotecas-basicas-c.html'">Bibliotecas Básicas em C</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             

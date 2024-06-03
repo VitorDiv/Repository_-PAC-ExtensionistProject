@@ -4,7 +4,8 @@ const questions = document.querySelectorAll(".form-question-body");
 const formAnswareStatus = form.querySelector(".form-status");
 var questionIndex;
 var answers = {
-    exerciciosLogica: [0, 2, 0]
+    exerciciosLogica: [0, 2, 0],
+    exerciciosBibliotecasC: [2, 2, 1]
 };
 
 buttonSubmit.addEventListener("click", () => {
@@ -54,7 +55,7 @@ function nullAnsware(questionIndex) {
     questionAnswareStatus.innerHTML = "Preencha este campo!";
     questionAnswareStatus.style.color = "#a52929";
     questionAnswareStatus.style.display = "block";
-    formAnswareStatus.innerHTML = "Preencha todos as questões do formulário!";
+    formAnswareStatus.innerHTML = "Preencha todas as questões do formulário!";
     formAnswareStatus.style.color = "#a52929";
     formAnswareStatus.style.display = "inline-block";
 }

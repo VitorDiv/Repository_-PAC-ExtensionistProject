@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotecas Basicas em C</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content-style.css">
+    <link rel="stylesheet" href="./css/exercice-form-style.css">
+</head>
+<body>
+    <header class="header"></header>
+    <section class="menu-lateral"></section>
+    <section class="content">
+        <h1 class="title">Bibliotecas básicas em C</h1>
+        <hr>
+
+        <h2 class="subtitle">O que são as bibliotecas em C?</h2>
+
+        <p class="description">As bibliotecas padrão são como coleções de ferramentas úteis que os programadores podem usar em seus programas escritos em linguagens de programação, um exemplo é a linguagem C. Cada biblioteca tem um conjunto de funções que podem ser chamadas para realizar diferentes tarefas, como manipular texto, fazer cálculos matemáticos, lidar com o tempo e muito mais.</p>  
+
+        <p class="description">Para acessar essas bibliotecas, os programadores precisam incluir uma cópia do arquivo de interface correspondente em seus programas. Por exemplo, se você quiser usar funções da biblioteca "stdlib", você incluiria o arquivo "stdlib.h" em seu programa. <strong>Veja algumas amostras enfeitadas de interfaces das principais bibliotecas padrão C</strong>:</p>
+        
+        <ul>
+            <li><p class="description-2"><strong>stdlib.h</strong>: Implementa funções para diversas operações, incluindo conversão, alocação de memória, controle de processo, funções de busca e ordenação.</p></li>
+            <li><p class="description-2"><strong>stdio.h</strong>: Nesta biblioteca há funções úteis para entrada e saída de dados (std = standard, padrão em inglês; io = Input/Output, entrada e saída ==> stdio = Entrada e saída padronizadas).</p></li>
+            <li><p class="description-2"><strong>math.h</strong>: Ela permite usar funções matemáticas básicas, tais como potência, trigonométricas, exponenciais, logarítmos, etc.</p></li>
+            <li><p class="description-2"><strong>string.h</strong>: Contém uma série de funções para manipular strings.</p></li>
+            <li><p class="description-2"><strong>limits.h</strong>: Esta biblioteca define constantes que especificam os tamanhos máximo e mínimo de vários tipos-de-dados básicos no seu computador.</p></li>
+        </ul>
+
+        <h3>Veja os vídeos abaixo</h3>
+
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/dp0zB4n3MUs?si=ucgv-nOMisFweRo-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube-video"></iframe></div>
+
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/tTQoTgwZ430?si=BhMjoFxAys0YWaSL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube-video"></iframe></div>
+
+        <h2 class="subtitle">Exercícios</h2>
+        <form class="exercice-form" id="exerciciosBibliotecasC">
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 1</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Com base no que foi estudado, podemos definir as bibliotecas como:</h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q1" name="a-q1" class="question-answare">
+                        <label for="a1-q1">Um container genérico para conteúdo de fluxo, que de certa forma não representa nada.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q1" name="a-q1" class="question-answare">
+                        <label for="a2-q1">Representa conteúdo autocontido, possivelmente com uma legenda opcional, que é especificada usando o elemento.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q1" name="a-q1" class="question-answare">
+                        <label for="a3-q1">Uma coleção de recursos utilizáveis para uso em um programa de computador.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q1" name="a-q1" class="question-answare">
+                        <label for="a4-q1">Um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q1" name="a-q1" class="question-answare">
+                        <label for="a5-q1">Representa uma instância de definição de um termo.</label>
+                    </section>
+                </div>
+            </div>
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 2</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Na escrita do código de um programa, qual expressão antecede a biblioteca? </h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q2" name="a-q2" class="question-answare">
+                        <label for="a1-q2">return</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q2" name="a-q2" class="question-answare">
+                        <label for="a2-q2">int main</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q2" name="a-q2" class="question-answare">
+                        <label for="a3-q2">include</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q2" name="a-q2" class="question-answare">
+                        <label for="a4-q2">printf</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q2" name="a-q2" class="question-answare">
+                        <label for="a5-q2">scanf</label>
+                    </section>
+                </div>
+            </div>
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 3</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Por que a lógica é importante na programação?</h4>
+                    <span class="answare-status"></span>
+                    <div class="exercice-ilustration">
+                        <img src="./img/exercises/bibliotecas-basicas-c/ilustration-exercice-3.png" alt="" class="exercice-ilustration">
+                    </div>
+                    <section>
+                        <input type="radio" id="a1-q3" name="a-q3" class="question-answare">
+                        <label for="a1-q1">Está declarada na função main, onde nos parênteses é guardado as informações das bibliotecas.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q3" name="a-q3" class="question-answare">
+                        <label for="a2-q1">Após a expressão inicial #include.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q3" name="a-q3" class="question-answare">
+                        <label for="a3-q3">Nos parênteses após a expressão a “printf”.</label>
+                    </section>
+                </div>
+            </div>
+            <button type="button" class="submit-answares"><span>Enviar!</span></button>
+            <span class="form-status"></span>
+        </form>
+
+        <footer class="footer"></footer>
+    </section>
+    <script src="./js/header/header.js"></script>
+    <script src="./js/menu/sidebar.js"></script>
+    <script src="./js/footer/footer.js"></script>
+    <script src="./js/menu/dropdown-menu.js"></script>
+    <script src="./js/menu/show-menu.js"></script>
+    <script src="./js/form/exercices-form.js"></script>
+</body>
+</html>

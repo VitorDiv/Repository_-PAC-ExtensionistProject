@@ -68,12 +68,12 @@ h3 {
     text-align: center;
 }
 
-ol {
+ol, ul {
     margin-top: 1.5vh;
     margin-left: 2vw;
 }
 
-ol li {
+li {
     line-height: 25px;
 }
 
@@ -112,6 +112,16 @@ th {
     margin-bottom: 2vh;
     margin-left: 2vw;
     margin-top: 2vh;
+}
+
+div.exercice-ilustration {
+    display: flex;
+    justify-content: center;
+}
+
+img.exercice-ilustration {
+    border: 0.3vh solid #68FF60;
+    width: 40%;
 }
 
 .footer {
