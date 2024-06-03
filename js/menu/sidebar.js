@@ -72,20 +72,20 @@ var sidebar = `
         </li>
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = ''">Declaração de Variáveis</span>
+                <span onclick="window.location.href = './declaracao-de-variaveis.html'">Declaração de Variáveis</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             
             <div class="sub-menu-body">
                 <ul class="sub-menu-items">
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 1</a>
+                        <a href="./declaracao-de-variaveis.html#o-que-e-variavel">O que é variável?</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 2</a>
+                        <a href="./declaracao-de-variaveis.html#como-declarar-variaveis">Como declarar variáveis?</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 3</a>
+                        <a href="./declaracao-de-variaveis.html#exercices">Exercícios</a>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaração de Variáveis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content-style.css">
+    <link rel="stylesheet" href="./css/exercice-form-style.css">
+</head>
+<body>
+    <header class="header"></header>
+    <section class="menu-lateral"></section>
+    <section class="content">
+
+        <h1 class="title">Declaração de variáveis</h1>
+        <hr>
+
+        <h2 class="subtitle" id="o-que-e-variavel">O que é variável?</h2>
+        <p class="description">As variáveis são locais de armazenamento em memória onde os dados podem ser armazenados e manipulados durante a execução de um programa. Nós já vimos alguns tipos antes, mas vamos relebrar os tipos principais:</p>
+
+        <ul class="content-list">
+            <li><strong>int</strong>: armazena valores numéricos do tipo inteiro, seja ele positivo ou negativo</li>
+            <li><strong>char</strong>: Variável que armazena um caractere do tipo texto.</li>
+            <li><strong>float</strong>: armazena dados de numérica do tipo decimal.</li>
+            <li><strong>double</strong>: Armazena dados do de numérica do tipo decimal de precisão dupla.</li>
+        </ul>
+
+        <h2 class="subtitle" id="como-declarar-variaveis">Como declarar variáveis?</h2>
+        <p class="description">Para declarar variáveis, você deve seguir a senguinte estrutura: &lt;tipo&gt; &lt;nome&gt; = &lt;valor&gt;. Ao criar uma variável, não pode conter caracteres especiais como por exemplo ' <code>?</code> ', ' <code>!</code> ', ' <code>~</code> ', ' <code>^</code> ', entre outros simbolos, no nome. O único símbolo recomendado de se utilizar é '<code>_</code>' (underline), por exemplo 'variavel_teste'. Caracteres acentuados também não podem ser utilizados, por exemplo 'variávelTeste'. Também é importante lembrar que não pode ser utilizado nenhum nome reservado pelo sistema, por exemplo 'for', 'while', 'if', 'else', entre outros. A maneira mais comum de nomear variáveis é usando camel case, por exemplo 'variavelTeste' Veja um exemplo prático de como criar uma variável abaixo:</p>
+        <img src="./img/declaracao-de-variaveis/como-declarar-variavel.png" alt="Demonstração de como declarar uma variável em C" class="ilustration">
+        <p class="description">Alguns tipos de variáveis precisam seguir algumas regras. Se formos pegar de exemplo uma variável do tipo char, para definir seu valor é necessário colocá-lo entre apóstrofos, por exemplo '&lt;valor&gt;'. Veja um exemplo prático abaixo:</p>
+        <img src="./img/declaracao-de-variaveis/como-declarar-variavel-char.png" alt="Demonstração de como declarar uma variável do tipo char em C" class="ilustration">
+
+        <h3>Assista esses vídeos</h3>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QrFjyty_HK0?si=qYU33I-vxlQ2tMib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube-video"></iframe>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tfLC_huv-Ko?si=23nW8B63gf4ErdxV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube-video"></iframe>
+        </div>
+
+        <h3 class="subtitle-2">Fontes</h3>
+        <ul class="content-list">
+            <li><a href="https://linguagemc.com.br/variaveis-em-linguagem-c/" class="link">https://linguagemc.com.br/variaveis-em-linguagem-c/</a></li> 
+
+            <li><a href="https://ic.unicamp.br/~islene/mc102/aula04/aula04.pdf" class="link">https://ic.unicamp.br/~islene/mc102/aula04/aula04.pdf</a></li> 
+
+            <li><a href="https://www.treinaweb.com.br/blog/variaveis-e-constantes-na-programacao#:~:text=Ao%20declarar%20uma%20vari%C3%A1vel%20n%C3%B3s,Vari%C3%A1vel%20num%C3%A9rica%20do%20tipo%20decimal" class="link">https://www.treinaweb.com.br/blog/variaveis-e-constantes-na-programacao#:~:text=Ao%20declarar%20uma%20vari%C3%A1vel%20n%C3%B3s,Vari%C3%A1vel%20num%C3%A9rica%20do%20tipo%20decimal</a></li>
+
+            <li><a href="https://autociencia.blogspot.com/2016/07/logica-de-programacao-declaracao-de-variaveis.html" class="link">https://autociencia.blogspot.com/2016/07/logica-de-programacao-declaracao-de-variaveis.html</a></li> 
+        </ul>
+
+        <h2 class="subtitle" id="exercices">Exercícios</h2>
+        <form class="exercice-form" id="exerciciosDeclaracaoDeVariaveis">
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 1</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Qual a estrutura básica da declaração de uma variável?</h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q1" name="a-q1" class="question-answare">
+                        <label for="a1-q1">tipo valor = variável!</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q1" name="a-q1" class="question-answare">
+                        <label for="a2-q1">valor tipo = variável;;</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q1" name="a-q1" class="question-answare">
+                        <label for="a3-q1">tipo variável == valor; </label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q1" name="a-q1" class="question-answare">
+                        <label for="a4-q1">tipo variável = valor;</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q1" name="a-q1" class="question-answare">
+                        <label for="a5-q1">main tipo variável <- valor.</label>
+                    </section>
+                </div>
+            </div>
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 2</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Ao declarar uma variável que armazena um caractere, você escreveu a seguinte linha de código: <code>char -nome</code>; ao compilar o programa, verificou que essa declaração gerou um erro de sintaxe. Qual a alternativa que indica esse erro?</h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q2" name="a-q2" class="question-answare">
+                        <label for="a1-q2"> <code>-nome</code> é uma palavra reservada; por esse motivo, ocorreu o erro. </label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q2" name="a-q2" class="question-answare">
+                        <label for="a2-q2">Durante a declaração, não é preciso o ponto e vírgula no final da linha de código.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q2" name="a-q2" class="question-answare">
+                        <label for="a3-q2">Faltou inicializar a variável, pois, em C, não podemos usar uma variável sem antes inicializá-la. </label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q2" name="a-q2" class="question-answare">
+                        <label for="a4-q2"><code>char</code> não é um tipo existente em C. </label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q2" name="a-q2" class="question-answare">
+                        <label for="a5-q2">Variáveis não devem começar com caracteres especiais como o hífen utilizado na declaração.</label>
+                    </section>
+                </div>
+            </div>
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 3</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4> Variável é:</h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q3" name="a-q3" class="question-answare">
+                        <label for="a1-q1">Indica que o texto incluído é uma longa citação.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q3" name="a-q3" class="question-answare">
+                        <label for="a2-q1">Um espaço reservado na memória do computador para se armazenar algum tipo de dado e esse dado pode variar, sendo acessado quando necessário e alterado, por isso o conceito de variável.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q3" name="a-q3" class="question-answare">
+                        <label for="a3-q3">É um string de controle, uma seqüência de caracteres entre aspas.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q3" name="a-q3" class="question-answare">
+                        <label for="a4-q3">Representa um grupo de suporte introdutório ou navegacional.</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q3" name="a-q3" class="question-answare">
+                        <label for="a5-q3">é usado para criar controles interativos para formulários baseados na web para receber dados do usuário.  </label>
+                    </section>
+                </div>
+            </div>
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 4</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Analisando os seguintes dados, quais deles podem ser considerados inteiros, declarados pela expressão int?</h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q4" name="a-q4" class="question-answare">
+                        <label for="a1-q4">Pedro</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q4" name="a-q4" class="question-answare">
+                        <label for="a2-q4">-55</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q4" name="a-q4" class="question-answare">
+                        <label for="a3-q4">1.3</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q4" name="a-q4" class="question-answare">
+                        <label for="a4-q4">√2</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q4" name="a-q4" class="question-answare">
+                        <label for="a5-q4">-4,5</label>
+                    </section>
+                </div>
+            </div>
+            <div class="form-question">
+                <button type="button" class="question-header"><span>Atividade 5</span><i class="fa-solid fa-chevron-left arrow"></i></button>
+                <div class="form-question-body">
+                    <h4>Qual dos tipos de variáveis representa um caractere?</h4>
+                    <span class="answare-status"></span>
+                    <section>
+                        <input type="radio" id="a1-q5" name="a-q5" class="question-answare">
+                        <label for="a1-q5">int</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a2-q5" name="a-q5" class="question-answare">
+                        <label for="a2-q5">float</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a3-q5" name="a-q5" class="question-answare">
+                        <label for="a3-q5">double</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a4-q5" name="a-q5" class="question-answare">
+                        <label for="a4-q5">char</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="a5-q5" name="a-q5" class="question-answare">
+                        <label for="a5-q5">boolean</label>
+                    </section>
+                </div>
+            </div>
+            <button type="button" class="submit-answares"><span>Enviar!</span></button>
+            <span class="form-status"></span>
+        </form>
+
+        <footer class="footer"></footer>
+    </section>
+    <script src="./js/header/header.js"></script>
+    <script src="./js/menu/sidebar.js"></script>
+    <script src="./js/footer/footer.js"></script>
+    <script src="./js/menu/dropdown-menu.js"></script>
+    <script src="./js/menu/show-menu.js"></script>
+    <script src="./js/form/exercices-form.js"></script>
+</body>
+</html>

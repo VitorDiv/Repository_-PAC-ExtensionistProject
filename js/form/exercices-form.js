@@ -5,7 +5,8 @@ const formAnswareStatus = form.querySelector(".form-status");
 var questionIndex;
 var answers = {
     exerciciosLogica: [0, 2, 0],
-    exerciciosBibliotecasC: [2, 2, 1]
+    exerciciosBibliotecasC: [2, 2, 1],
+    exerciciosDeclaracaoDeVariaveis: [3, 4, 1, 1, 3]
 };
 
 buttonSubmit.addEventListener("click", () => {
