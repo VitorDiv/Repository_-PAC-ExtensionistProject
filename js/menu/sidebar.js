@@ -99,13 +99,7 @@ var sidebar = `
             <div class="sub-menu-body">
                 <ul class="sub-menu-items">
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 1</a>
-                    </li>
-                    <li class="sub-menu-item">
-                        <a href="#">Sub menu 2</a>
-                    </li>
-                    <li class="sub-menu-item">
-                        <a href="#">Sub menu 3</a>
+                        <a href="./comandos-entrada-saida.html#o-que-sao-comandos-entrada-saida">O que são comandos de entrada e saída?</a>
                     </li>
                 </ul>
             </div>
