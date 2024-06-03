@@ -50,6 +50,9 @@ var sidebar = `
                     <li class="sub-menu-item">
                         <a href="./linguagem-de-programacao-c.html#o-que-sao-variaveis">O que são variáveis?</a>
                     </li>
+                    <li class="sub-menu-item">
+                        <a href="./linguagem-de-programacao-c.html#por-onde-comecar">Por onde começar?</a>
+                    </li>
                 </ul>
             </div>
         </li>
