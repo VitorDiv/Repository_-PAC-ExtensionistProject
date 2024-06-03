@@ -112,20 +112,14 @@ var sidebar = `
         </li> 
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = ''">Estrutura Condicional</span>
+                <span onclick="window.location.href = './estrutura-condicional.html'">Estrutura Condicional</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             
             <div class="sub-menu-body">
                 <ul class="sub-menu-items">
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 1</a>
-                    </li>
-                    <li class="sub-menu-item">
-                        <a href="#">Sub menu 2</a>
-                    </li>
-                    <li class="sub-menu-item">
-                        <a href="#">Sub menu 3</a>
+                        <a href="./estrutura-condicional.html#o-que-sao-condicionais">O que são condicionais?</a>
                     </li>
                 </ul>
             </div>
