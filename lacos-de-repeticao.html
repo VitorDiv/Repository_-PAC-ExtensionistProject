@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laços de Repetição</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content-style.css">
+    <link rel="stylesheet" href="./css/exercice-form-style.css">
+</head>
+<body>
+    <header class="header"></header>
+    <section class="menu-lateral"></section>
+    <section class="content">
+        <h1 class="title">Laços de repetição</h1>
+        <hr>
+
+        <h2 class="subtitle">O que são laços de repetição?</h2>
+        <p class="description">Laços de repetições permitem que um conjunto de instruções seja repetido enquanto a condição dada for verdadeira. Ele é útil para executar tarefas repetitivas onde o número de iterações não é conhecido previamente e depende de uma condição dinâmica.</p>
+
+        <h2 class="subtitle">Tipos de laço de repetição</h2>
+        <h3 class="subtitle-2">Laço de repetição while</h3>
+        <p class="description">O significado de while é "enquanto". O comando while permite que um certo trecho de programa seja executado ENQUANTO uma certa condição for verdadeira. A forma do comando while é a seguinte:</p>
+        <img src="./img/lacos-de-repeticao/exemplo-while.png" alt="Exemplo de código while" class="ilustration">
+
+        <p class="description-1">O funcionamento é o seguinte:</p> 
+
+        <ol class="content-list">
+            <li>Testa a condição;</li>
+            <li>Se a  condição for falsa então pula todos os comandos do bloco subordinado ao while e passa a executar os comandos após o bloco do while.</li>
+            <li>Se  condição for verdadeira então executa cada um dos comandos do bloco subordinado ao while.</li>
+            <li>Após executar o último comando do bloco do while volta ao passo 1.</li>
+        </ol> 
+
+        <p class="description-2">O comando while deve ser usado sempre que: </p>
+
+        <ul class="content-list">
+            <li>Não soubermos exatamente quantas vezes o laço deve ser repetido;</li>
+            <li>O teste deva ser feito antes de iniciar a execução de um bloco de comandos;</li>
+            <li>Houver casos em que o laço não deva ser repetido nenhuma vez.</li>
+        </ul>
+
+        <p class="description-2">Veja um exemplo de while na prática:</p>
+        <img src="./img/lacos-de-repeticao/estrutura-while.png" alt="Exemplo de estrutura de repetição while na prática" class="ilustration">
+
+        <p class="description-2">Tenha atenção especial com o teste do comando while. <strong>As variáveis usadas no teste devem ter sido inicializadas antes do teste.</strong></p>
+
+        <h3>Assista ao vídeo sobre while</h3>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FhM-rXPALL8?si=yDD6ZgA7r_VApfvp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube-video"></iframe>
+        </div>
+
+        <h3 class="subtitle-2">Laço de repetição do-while</h3>
+        <p class="description">O significado de do-while é fazer-enquanto. O comando do-while permite que um certo trecho de programa seja executado ENQUANTO uma certa condição for verdadeira. A forma do comando do-while é a seguinte: </p>
+        <img src="./img/lacos-de-repeticao/exemplo-do-while.png" alt="Exemplo do laço de repetição do-while" class="ilustration">
+
+        <p class="description-2">O funcionamento é o seguinte:</p> 
+
+        <ol class="content-list">
+            <li>Executa os comando dentro do bloco do-while;</li>
+            <li>Testa a condição;</li>
+            <li>Se a condição for falsa então executa o comando que está logo após o bloco subordinado ao do-while .</li>
+            <li>Se 9condição for verdadeira então volta ao passo 1.</li>
+        </ol>
+
+        <p class="description-2">O comando do-while deve ser usado sempre que:</p> 
+
+        <ul class="content-list">
+            <li>Que não soubermos exatamente quantas vezes o laço deve ser repetido;</li>
+            <li>O teste deva ser feito depois da execução de um bloco de comandos;</li>
+            <li>O bloco de comandos deve se executado pelo menos 1 vez.</li>
+        </ul>
+
+        <p class="description-2">Veja um exemplo de do-while na prática:</p>
+        <img src="./img/lacos-de-repeticao/estrutura-do-while.png" alt="Exemplo de estrutura de do-while na prática" class="ilustration">
+
+        <h3>Assista ao vídeo sobre do-while</h3>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GGHR93PKsXc?si=9VCc_u0ZJhLXJ4Uq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="youtube-video"></iframe>
+        </div>
+
+        <footer class="footer"></footer>
+    </section>
+    <script src="./js/header/header.js"></script>
+    <script src="./js/menu/sidebar.js"></script>
+    <script src="./js/footer/footer.js"></script>
+    <script src="./js/menu/dropdown-menu.js"></script>
+    <script src="./js/menu/show-menu.js"></script>
+    <script src="./js/form/exercices-form.js"></script>
+</body>
+</html>

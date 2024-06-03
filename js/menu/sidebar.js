@@ -123,7 +123,7 @@ var sidebar = `
         </li>
         <li class="menu-item">
             <button class="menu-item-title">
-                <span onclick="window.location.href = ''">Laços de Repetição</span>
+                <span onclick="window.location.href = './lacos-de-repeticao.html'">Laços de Repetição</span>
                 <i class="fa-solid fa-chevron-left arrow"></i>
             </button>
             
