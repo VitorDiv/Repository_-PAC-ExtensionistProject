@@ -62,13 +62,10 @@ var sidebar = `
             <div class="sub-menu-body">
                 <ul class="sub-menu-items">
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 1</a>
+                        <a href="./bibliotecas-basicas-c.html#o-que-sao-as-bibliotecas-em-c">O que são as bibliotecas em C?</a>
                     </li>
                     <li class="sub-menu-item">
-                        <a href="#">Sub menu 2</a>
-                    </li>
-                    <li class="sub-menu-item">
-                        <a href="#">Sub menu 3</a>
+                        <a href="./bibliotecas-basicas-c.html#exercices">Exercícios</a>
                     </li>
                 </ul>
             </div>

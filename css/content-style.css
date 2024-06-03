@@ -68,12 +68,12 @@ h3 {
     text-align: center;
 }
 
-ol, ul {
+.content-list {
     margin-top: 1.5vh;
     margin-left: 2vw;
 }
 
-li {
+.content-list li {
     line-height: 25px;
 }
 
