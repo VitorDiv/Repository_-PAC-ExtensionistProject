@@ -28,6 +28,7 @@ buttonSubmit.addEventListener("click", () => {
     }
 });
 
+
 function checkAnsware(answareIndex, questionIndex) {
     formAnswareStatus.style.display = "none";
     if(answareIndex == answers[form.id][questionIndex]) {
